@@ -12,7 +12,8 @@ func twoSum(nums []int, target int) []int {
 		if k, ok := m[target-v]; ok {
 			return []int{k, i}
 		}
-		// 缓存 v 的坐标, 优化一次查找
+		// 边遍历边构建哈希表
+		// 映射: 存储缓存坐标, 优化一次查找
 		m[v] = i
 	}
 	return nil
