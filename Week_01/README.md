@@ -10,7 +10,6 @@
     - [优先队列 Priority Queue](#优先队列-priority-queue)
     - [Golang Queue & Priority Queue 源码分析](#golang-queue--priority-queue-源码分析)
 
-* 暂未详细整理整理
 
 * 常见复杂度
   * O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(n^3) < O(2^n) < O(n!) < O(n^n)
