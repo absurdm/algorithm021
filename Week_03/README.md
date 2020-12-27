@@ -2,12 +2,12 @@
 
 * 递归 & 分治回溯
 
-- [第三周](#第三周)
-  - [递归 (recursion)](#递归-recursion)
-    - [模板代码](#模板代码)
-  - [分治  (divide & conquer)](#分治--divide--conquer)
-    - [模板代码](#模板代码-1)
-  - [回溯 (backtracking)](#回溯-backtracking)
+1. [第三周](#第三周)
+   1. [递归 (recursion)](#递归-recursion)
+      1. [模板代码](#模板代码)
+   2. [分治  (divide & conquer)](#分治--divide--conquer)
+      1. [模板代码](#模板代码-1)
+   3. [回溯 (backtracking)](#回溯-backtracking)
 
 ## 递归 (recursion)
 
@@ -90,3 +90,5 @@ def divide_conquer(problem, param1, param2, ...):
 
 * 从一条路往前走，能进则进，不能进则退回来，换一条路再试
   * 根据逻辑中断问题
+
+![回溯](imgs/pimg-2020-12-22-22-41-54.png)
